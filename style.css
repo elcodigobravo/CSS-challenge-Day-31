@@ -1,0 +1,99 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    background-color: #4c4ba2;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.274);
+}
+  
+.dots{
+    padding-top: 28px;
+    padding-left: 194px;
+}
+
+.dots .dot{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+.dot-1 {
+    animation: dot 1000ms ease-in-out infinite;
+}
+.dot-2 {
+    animation: dot 1018ms ease-in-out infinite;
+}
+.dot-3 {
+    animation: dot 1036ms ease-in-out infinite;
+}
+.dot-4 {
+    animation: dot 1054ms ease-in-out infinite;
+}
+.dot-5 {
+    animation: dot 1072ms ease-in-out infinite;
+}
+.dot-6 {
+    animation: dot 1090ms ease-in-out infinite;
+}
+.dot-7 {
+    animation: dot 1108ms ease-in-out infinite;
+}
+.dot-8 {
+    animation: dot 1126ms ease-in-out infinite;
+}
+.dot-9 {
+    animation: dot 1144ms ease-in-out infinite;
+}
+.dot-10 {
+    animation: dot 1162ms ease-in-out infinite;
+}
+.dot-11 {
+    animation: dot 1180ms ease-in-out infinite;
+}
+.dot-12 {
+    animation: dot 1198ms ease-in-out infinite;
+}
+.dot-13 {
+    animation: dot 1216ms ease-in-out infinite;
+}
+.dot-14 {
+    animation: dot 1234ms ease-in-out infinite;
+}
+.dot-15 {
+    animation: dot 1252ms ease-in-out infinite;
+}
+.dot-16 {
+    animation: dot 1270ms ease-in-out infinite;
+}
+.dot-17 {
+    animation: dot 1288ms ease-in-out infinite;
+}
+.dot-18 {
+    animation: dot 1306ms ease-in-out infinite;
+}
+.dot-19 {
+    animation: dot 1324ms ease-in-out infinite;
+}
+.dot-20 {
+    animation: dot 1342ms ease-in-out infinite;
+}
+
+
+
+
+
+@keyframes dot{
+    0%,100%{
+       transform: translate3d(50px, 0,0);
+    }
+    50%{
+        transform: translate3d(-50px,0,0);
+    }
+}
